@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Temperature Conversion by Gin">
+    <meta name="author" content="Ghina Balqis Rasyidah, ghinabalqisra@gmail.com">
+    <meta property="og:site_name" content="Temperature Conversion Calculator">
+    <meta http-equiv="X-UA Compatible" content="IE-edge">
+
+    <title>Temperature Conversion Calculator</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+
+    <!-- Google Fonts -->
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="#home" class="active"><b>Home</b></a>
+            <a href="#about"><b>About</b></a>
+        </nav>
+    </header>
+
+    <main>
+        <div id="home">
+            <div class="container">
+                <div class="box">
+                    <h1>Temperature Conversion</h1>
+
+                    <div class="input-box">
+                        <label for="celsiusInput">Celsius (℃)</label>
+                        <input type="number" name="celsius" id="celsiusInput"
+                            placeholder="Enter the temperature here...">
+                    </div>
+
+                    <div class="input-box">
+                        <label for="fahrenheit">Fahrenheit (℉)</label>
+                        <input type="number" name="fahrenheit" id="fahrenheitInput"
+                            placeholder="Result will be displayed here..." disabled>
+                    </div>
+
+                    <div class="buttons">
+                        <button id="convertBtn" title="Convert the temperature">Convert</button>
+                        <button id="reverseBtn" title="Reverse the temperature">Reverse</button>
+                        <button id="resetBtn" title="Reset your input">Reset</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="about">
+            <div class="container">
+                <div class="box">
+                    <h2>About Temperature Conversion</h2>
+
+                    <div class="about-1">
+                        <p>To convert Celsius (℃) to Fahrenheit (℉), we can use the formula below.</p>
+                        <img src="assets/C-F.png" class="formula-img" alt="Formula to convert Celsius to Fahrenheit.">
+                    </div>
+
+                    <div class="about-2">
+                        <p>To convert Fahrenheit (℉) to Celsius (℃), we can use the formula below.</p>
+                        <img src="assets/F-C.png" class="formula-img" alt="Formula to convert Fahrenheit to Celsius.">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
